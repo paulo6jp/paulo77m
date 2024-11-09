@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../fonts/Poppins-Medium.otf');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/Poppins-Regular.otf');
+}
+
+:root {
+    /* Definição de cores */
+    --cor-de-fundo: #ffffff;
+    --cor-preto: #7c6a6a;
+    --cor-texto: #221f1f;
+    --cor-text-aut: #909090;
+    --cor-primaria: rgb(128, 128, 11);
+    --cor-secundaria: hsl(0, 0%, 100%);
+    --cor-branca: hsl(0, 0%, 100%);
+    --cor-red: rgb(233, 11, 11);
+    --cor-green: #2ecc71;
+    --cor-serador: #cccccc;
+}
+
+html, body {
+    /* Estilos básicos para o corpo do documento */
+    font-family: 'PoppinsRegular', 'Rubik', sans-serif;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-texto);
+}
+
+.b {
+    /* Estilo de fonte para a classe .b */
+    font-family: 'PoppinsMedium', 'Rubik', sans-serif;
+}
+
+.nav-link {
+    /* Estilo para links de navegação */
+    color: var(--cor-preto);
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+
+.btn-white {
+    /* Estilo do botão .btn-white */
+    background-color: #f5f4f3;
+    font-size: 20px;
+    color: #212121 !important;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px #FFA500;
+}
+
+.cor-primaria {
+    /* Cor primária */
+    color: #212121;
+}
+
+.cor-amarela {
+    /* Cor amarela */
+    color: #f8f406fd;
+}
+
+.banner {
+    /* Estilo para a seção .banner */
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.text-banner {
+    /* Estilo para a classe .text-banner */
+    flex-direction: column;
+}
+
+.prato {
+    /* Estilo para a classe .prato */
+    flex-direction: column;
+    left: 10px;
+}
+
+/* Estilo do botão de "ver cardápio" */
+.btn-yellow {
+    height: 40px;
+    box-shadow: 0px 10px 15px -3px #f1f1f0;
+    background-color: #FFA500;
+    color: #ffffff;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.text-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-banner .d-flex {
+    background-color: #ffffff;
+    display:inline-block;
+    align-items: center;
+    width: 10px;
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 0px;
+    
+}
+
+.txto_ver_cardapio{
+    color: #111111;
+}
+
